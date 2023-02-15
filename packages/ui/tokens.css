@@ -1,0 +1,15 @@
+:root {
+  --color-primary: #ff0000;
+  --color-secondary: #00ff00;
+  --color-tertiary: #0000ff;
+
+  --spacing-1: 0.25rem;
+  --spacing-2: 0.5rem;
+  --spacing-3: 1rem;
+  --spacing-4: 2rem;
+  --spacing-5: 4rem;
+
+  --font-size-1: 0.75rem;
+  --font-size-2: 0.875rem;
+  --font-size-3: 1rem;
+}

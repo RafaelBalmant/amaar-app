@@ -5,7 +5,7 @@ import { Button } from "ui";
 import { ButtonVariants } from "ui/Button.types";
 
 export default {
-  title: "Example/Button",
+  title: "Form/Button",
   component: Button,
   argTypes: {
     variant: ButtonVariants,

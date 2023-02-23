@@ -7,9 +7,11 @@ type ButtonProps = {
   label?: string;
 };
 
-export const Button = ({
+const Button: React.FC<ButtonProps> = ({
   variant = ButtonVariants.primary,
   label = "",
-}: ButtonProps) => {
+}) => {
   return <S.StyledButton $variant={variant}>{label}</S.StyledButton>;
 };
+
+export default Button;

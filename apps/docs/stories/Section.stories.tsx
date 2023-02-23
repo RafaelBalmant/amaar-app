@@ -11,4 +11,7 @@ export default {
 export const Default: Story = (args) => <Section {...args} />;
 Default.args = {
   children: "Example section content.",
+  centerContent: false,
+  backgroundColor: "#ffffff",
+  contentColor: "#212121",
 };

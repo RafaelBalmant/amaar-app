@@ -1,13 +1,22 @@
 :root {
-  --color-primary: #ff0000;
-  --color-secondary: #00ff00;
+  --default-text-color: #212121;
+  --negative-text-color: #ffffff;
+
+  --background: #ffffff;
+  --negative-background: #503683;
+
+  --color-primary: #62ded1;
+  --color-secondary: #503683;
   --color-tertiary: #0000ff;
 
   --spacing-1: 0.25rem;
   --spacing-2: 0.5rem;
   --spacing-3: 1rem;
-  --spacing-4: 2rem;
-  --spacing-5: 4rem;
+  --spacing-4: 1.5rem;
+  --spacing-5: 2rem;
+  --spacing-6: 2.5rem;
+  --spacing-7: 3rem;
+  --spacing-6: 4rem;
 
   --font-size-1: 0.75rem;
   --font-size-2: 0.875rem;

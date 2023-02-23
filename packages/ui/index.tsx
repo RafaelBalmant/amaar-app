@@ -1,3 +1,6 @@
 import "./tokens.css";
 
-export * from "./Button";
+import Button from "./Button";
+import Section from "./Section";
+
+export { Button, Section };

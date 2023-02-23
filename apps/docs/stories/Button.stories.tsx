@@ -1,5 +1,5 @@
 import React, { ReactNode } from "react";
-import { ComponentStory, ComponentMeta } from "@storybook/react";
+import { Story, Meta } from "@storybook/react";
 
 import { Button } from "ui";
 import { ButtonVariants } from "ui/Button.types";
@@ -13,24 +13,22 @@ export default {
       control: "text",
     },
   },
-} as ComponentMeta<typeof Button>;
+} as Meta;
 
-const Template: ComponentStory<typeof Button> = (args) => <Button {...args} />;
-
-export const Primary = Template.bind({});
+export const Primary: Story = (args) => <Button {...args} />;
 Primary.args = {
   variant: ButtonVariants.primary,
-  label: "Testing",
+  label: "Testing primary",
 };
 
-export const Secondary = Template.bind({});
+export const Secondary: Story = (args) => <Button {...args} />;
 Secondary.args = {
   variant: ButtonVariants.secondary,
-  label: "Testing",
+  label: "Testing secondary",
 };
 
-export const Tertiary = Template.bind({});
+export const Tertiary: Story = (args) => <Button {...args} />;
 Tertiary.args = {
   variant: ButtonVariants.tertiary,
-  label: "Testing",
+  label: "Testing tertiary",
 };

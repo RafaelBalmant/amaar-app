@@ -1,12 +1,9 @@
 import React from "react";
 
 import * as S from "./Section.styles";
+import { SectionProps } from "./Section.types";
 
-type Props = {
-  children?: string | React.ReactNode | React.ReactNode[];
-};
-
-const Section: React.FC<Props> = ({ children = "" }) => {
+const Section: React.FC<SectionProps> = ({ children = "" }) => {
   return (
     <S.Container>
       <S.Content>{children}</S.Content>

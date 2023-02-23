@@ -1,19 +1,14 @@
 import React from "react";
-import { ComponentStory, ComponentMeta } from "@storybook/react";
+import { Story, Meta } from "@storybook/react";
 
 import { Section } from "ui";
 
 export default {
   title: "Content/Section",
   component: Section,
-} as ComponentMeta<typeof Section>;
+} as Meta;
 
-const Template: ComponentStory<typeof Section> = (args) => (
-  <Section {...args} />
-);
-
-export const Default = Template.bind({});
-
+export const Default: Story = (args) => <Section {...args} />;
 Default.args = {
-  children: "Testing",
+  children: "Example section content.",
 };
